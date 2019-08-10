@@ -1,0 +1,24 @@
+#mainGrid {
+	border: 2px;
+	width: 433px;
+	height: 433px;
+	margin: 0 565px;
+}
+#mainGrid .finalGrid {
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 100px;
+}
+
+#buttons {
+	text-align: center;
+	margin-top: 25px;
+}
