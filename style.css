@@ -1,15 +1,18 @@
-#mainGrid {
-	border: 2px;
-	width: 433px;
-	height: 433px;
-	margin: 0 565px;
+* {
+	box-sizing: border-box;
 }
-#mainGrid .finalGrid {
-	display: inline-block;
-	vertical-align: top;
-	background-color: white;
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	text-align: center;
+
+.mainGrid {
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 502px;
+	height: 502px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.finalGrid {
+	border: 1px solid black;
 }
 
 h1 {

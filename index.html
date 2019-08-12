@@ -6,11 +6,13 @@
 	</head>
 	<body>
 		<h1>Etch-a-Sketch</h1>
-		<div id="mainGrid"></div>
+		<div class="mainGrid"></div>
 		<div id="buttons">
-			<button type="button">resize</button>
-			<button type="button">clear</button>
-			<button type="button">random colors</button>
+			<button onclick="black()">black</button>
+			<button onclick="random()">random color</button>
+			<button onclick="erase()">erase</button>
+			<button onclick="reset()">reset</button>
+			<button onclick="resizeGrid()">resize</button>
 		</div>
 		<script src="main.js"></script>
 	</body>
