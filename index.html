@@ -2,17 +2,23 @@
 <html>
 	<head>
 		<title>Etch-a-Sketch</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap"
+			rel="stylesheet"
+		/>
 		<link href="style.css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1>Etch-a-Sketch</h1>
-		<div class="mainGrid"></div>
+		<div class="container">
+			<div id="title">Etch-a-Sketch</div>
+			<div class="mainGrid"></div>
+		</div>
 		<div id="buttons">
-			<button onclick="black()">black</button>
-			<button onclick="random()">random color</button>
-			<button onclick="erase()">erase</button>
-			<button onclick="reset()">reset</button>
-			<button onclick="resizeGrid()">resize</button>
+			<button onclick="reset()" class="button2">reset</button>
+			<button onclick="random()" class="button1">random color</button>
+			<button onclick="erase()" class="button1">erase</button>
+			<button onclick="black()" class="button1">black</button>
+			<button onclick="resizeGrid()" class="button2">resize</button>
 		</div>
 		<script src="main.js"></script>
 	</body>
